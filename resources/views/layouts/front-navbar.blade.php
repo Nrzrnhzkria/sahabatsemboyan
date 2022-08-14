@@ -1,3 +1,9 @@
+<style>
+    .navbar ul li a:hover {
+        color:#b43939;
+    }
+</style>
+
 <nav class="navbar navbar-expand-lg sticky-top shadow" style="background-color: #ffffff;">
     <div class="container">
         <a class="navbar-brand">
@@ -7,55 +13,25 @@
             <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav fw-bold">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-dark active" href="/">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        About
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/preface">Opening Remarks</a></li>
-                        <li><a class="dropdown-item" href="/introduction">Introduction</a></li>
-                        <li><a class="dropdown-item" href="/organization">Organizational Chart</a></li>
-                        <li><a class="dropdown-item" href="/objective">Objective</a></li>
-                        <li><a class="dropdown-item" href="/vision-mission">Vision & Mission</a></li>
-                    </ul>
+                    <a class="nav-link" href="/">Laman Utama</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="/events">Events</a>
+                    <a class="nav-link" href="/events">Keahlian</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="/news">News</a>
+                    <a class="nav-link" href="/news">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="/media">Media</a>
+                    <a class="nav-link" href="/media">Sedekah</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="/contact">Contact</a>
+                    <a class="nav-link" href="/contact">Hubungi Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-warning text-dark fw-bold" href="/registration"><i class="bi bi-people-fill"></i> Vendor Registration</a>
+                    <a class="nav-link" href="/about">About</a>
                 </li>
-                {{-- </li><li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                </li> --}}
-                <!-- Default dropstart button -->
-                {{-- <div class="btn-group dropstart">
-                    <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                    </a>
-                    <ul class="dropdown-menu">
-                    <!-- Dropdown menu links -->
-                        <li>
-                            <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-warning" type="submit">Search</button>
-                            </form>
-                        </li>
-                    </ul>
-                </div> --}}
                 
             </ul>
         </div>
