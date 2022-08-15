@@ -1,5 +1,5 @@
 <div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+  <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
     <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
             <img class="img-fluid" src="{{ asset('storage/img/sahabatsemboyan.png') }}" alt="logo" width="100rem">
@@ -14,11 +14,11 @@
 
     <div class="nav col-md-4 ">
         <p class="text-muted px-3">Sila ikuti kami di sosial media:</p>
-        <ul class="justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="#">Youtube</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
-            <li class="ms-3"><a class="text-muted" href="#">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
-            <li class="ms-3"><a class="text-muted" href="#">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
-            <li class="ms-3"><a class="text-muted" href="#">Instagram</a></li>
+        <ul class="justify-content-end list-unstyled fw-bold text-danger d-flex">
+            <li class="ms-3"><a class="text-decoration-none" href="#">Youtube</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+            <li class="ms-3"><a class="text-decoration-none" href="#">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+            <li class="ms-3"><a class="text-decoration-none" href="#">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+            <li class="ms-3"><a class="text-decoration-none" href="#">Instagram</a></li>
         </ul>
     </div>
   </footer>

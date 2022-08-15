@@ -51,7 +51,7 @@
 
                     <div class="my-3">
                       <label for="staticName" class="form-label">Nama Penuh</label>
-                      <input type="email" class="form-control" id="staticName" placeholder="Masukkan nama penuh" required autofocus>
+                      <input type="text" class="form-control" id="staticName" name="name" placeholder="Masukkan nama penuh" required autofocus>
                     </div>
 
                     <div class="my-3">
@@ -128,7 +128,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="{{ asset('storage/img/perjuangan.jpeg') }}" alt="banner1" width="100%">
+          <img class="img-fluid" src="{{ asset('storage/img/perjuangan.jpeg') }}" alt="banner1" width="100%">
         </div>
       </div>
     </div>
@@ -194,7 +194,7 @@
     <div class="container">
       <div class="row justify-content-around">
         <div class="col-md-5 py-3">
-        <img src="{{ asset('storage/img/hands.jpeg') }}" alt="banner2" width="100%">
+          <img class="img-fluid" src="{{ asset('storage/img/hands.jpeg') }}" alt="banner2" width="100%">
         </div>
         <div class="col-md-5 py-3">
           <h4 class="pb-4">Ayuh Menyumbang Bersama Kami</h4>

@@ -79,7 +79,7 @@
     --bs-border-radius-2xl: 2rem;
     --bs-border-radius-pill: 50rem;
     --bs-link-color: #b43939;
-    --bs-link-hover-color: #b43939;
+    --bs-link-hover-color: #343a40;
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd;
   }
@@ -2968,10 +2968,10 @@
   
   .btn-danger {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #dc3545;
+    --bs-btn-bg: #b43939;
     --bs-btn-border-color: #dc3545;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #bb2d3b;
+    --bs-btn-hover-bg: #dc3545;
     --bs-btn-hover-border-color: #b02a37;
     --bs-btn-focus-shadow-rgb: 225, 83, 97;
     --bs-btn-active-color: #fff;
@@ -3103,11 +3103,11 @@
   }
   
   .btn-outline-danger {
-    --bs-btn-color: #dc3545;
-    --bs-btn-border-color: #dc3545;
+    --bs-btn-color: #b43939;
+    --bs-btn-border-color: #b43939;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #dc3545;
-    --bs-btn-hover-border-color: #dc3545;
+    --bs-btn-hover-bg: #b43939;
+    --bs-btn-hover-border-color: #b43939;
     --bs-btn-focus-shadow-rgb: 220, 53, 69;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #dc3545;
@@ -6807,7 +6807,7 @@
   }
   
   .link-danger {
-    color: #dc3545 !important;
+    color: #b43939 !important;
   }
   .link-danger:hover, .link-danger:focus {
     color: #b02a37 !important;
@@ -8150,7 +8150,7 @@
   
   .text-danger {
     --bs-text-opacity: 1;
-    color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+    color: #b43939 !important;
   }
   
   .text-light {
@@ -8241,7 +8241,7 @@
   
   .bg-danger {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+    background-color: #b43939 !important;
   }
   
   .bg-light {

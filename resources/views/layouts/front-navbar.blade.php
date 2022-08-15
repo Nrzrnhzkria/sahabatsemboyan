@@ -9,10 +9,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav fw-bold">
                 <li class="nav-item">
-                    <a class="nav-link active" href="/">Laman Utama</a>
+                    <a class="nav-link" href="/">Laman Utama</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Keahlian</a>
+                    <a class="nav-link" href="/keahlian">Keahlian</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/news">Shop</a>
@@ -21,7 +21,7 @@
                     <a class="nav-link" href="/media">Sedekah</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact">Hubungi Kami</a>
+                    <a class="nav-link" href="/hubungi">Hubungi Kami</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/about">About</a>
