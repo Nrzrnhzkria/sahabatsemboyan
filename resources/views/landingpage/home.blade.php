@@ -218,46 +218,50 @@
       <div class="row">
 
         <div class="col-md-3 p-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card text-decoration-none">
+            <img src="{{ asset('storage/img/baju.jpeg') }}" class="card-img-top" alt="baju">
+            <div class="card-body fw-bold">
+              <p class="card-text text-dark">Semboyan Jihad T-Shirt (Hitam)</p>
+              <p class="card-text text-danger">RM55.00</p>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="col-md-3 p-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card text-decoration-none">
+            <img src="{{ asset('storage/img/baju.jpeg') }}" class="card-img-top" alt="...">
+            <div class="card-body fw-bold">
+              <p class="card-text text-dark">Semboyan Jihad T-Shirt (Hitam)</p>
+              <p class="card-text text-danger">RM55.00</p>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="col-md-3 p-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card text-decoration-none">
+            <img src="{{ asset('storage/img/baju.jpeg') }}" class="card-img-top" alt="...">
+            <div class="card-body fw-bold">
+              <p class="card-text text-dark">Semboyan Jihad T-Shirt (Hitam)</p>
+              <p class="card-text text-danger">RM55.00</p>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="col-md-3 p-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card text-decoration-none">
+            <img src="{{ asset('storage/img/baju.jpeg') }}" class="card-img-top" alt="...">
+            <div class="card-body fw-bold">
+              <p class="card-text text-dark">Semboyan Jihad T-Shirt (Hitam)</p>
+              <p class="card-text text-danger">RM55.00</p>
             </div>
-          </div>
+          </a>
         </div>
         
       </div>
 
       <div class="row justify-content-center">
         <div class="col-auto p-3">
-          <a href="" class="btn btn-outline-danger">Lihat Semua Produk <i class="bi bi-arrow-right"></i></a>
+          <a href="/shop" class="btn btn-outline-danger">Lihat Semua Produk <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
         
