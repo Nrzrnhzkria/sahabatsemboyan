@@ -1,24 +1,18 @@
-<style>
-    .navbar ul li a:hover {
-        color:#b43939;
-    }
-</style>
-
 <nav class="navbar navbar-expand-lg sticky-top shadow" style="background-color: #ffffff;">
     <div class="container">
         <a class="navbar-brand">
-            <img class="img-fluid" src="{{ asset('assets/img/hun.png') }}" alt="" width="60rem">
+            <img class="img-fluid" src="{{ asset('storage/img/sahabatsemboyan.png') }}" alt="logo" width="60rem">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav fw-bold">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Laman Utama</a>
+                    <a class="nav-link active" href="/">Laman Utama</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/events">Keahlian</a>
+                    <a class="nav-link" href="/">Keahlian</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/news">Shop</a>
