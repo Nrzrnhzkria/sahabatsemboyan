@@ -22,6 +22,7 @@ Route::get('/hubungi', [HomeController::class, 'hubungi']);
 
 // Shop Page
 Route::get('/shop', [ShopController::class, 'shop']);
+Route::get('/shop-view', [ShopController::class, 'view']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

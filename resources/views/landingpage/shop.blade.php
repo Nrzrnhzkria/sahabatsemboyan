@@ -45,7 +45,7 @@
             <div class="row">
 
                 <div class="col-md-3 p-3">
-                    <a href="#" class="card text-decoration-none">
+                    <a href="/shop-view" class="card text-decoration-none">
                         <img src="{{ asset('storage/img/baju.jpeg') }}" class="card-img-top" alt="baju">
                         <div class="card-body fw-bold">
                             <p class="card-text text-dark">Semboyan Jihad T-Shirt (Hitam)</p>
